@@ -18,7 +18,19 @@
     rgba(9, 9, 121, 1) 100%
   );
 }
-
+@media (max-width: 450px) {
+  .container {
+    width: 800px;
+  }
+  .container img {
+    margin-right: -30px;
+  }
+  .container .heading {
+    width: fit-content;
+    font-size: 50px;
+    margin-left: 100px;
+  }
+}
 .heading {
   margin: 0 auto;
   max-width: 500px;
